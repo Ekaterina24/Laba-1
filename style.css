@@ -40,8 +40,34 @@ p {
     justify-content: space-between;
     border: 2px solid red;
     align-content: center;
-    height: 1500px;
+    height: auto;
+    width: auto;
 }
+
+.item3_7, .item3_8{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 350px;
+}
+
+.item3_6, .item3_5{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 350px;
+}
+
+.item3_4, .item3_3{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 350px;
+}
+
+.item3_2, .item3_1{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 350px;
+}
+
 
 
 
