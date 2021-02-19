@@ -34,6 +34,16 @@ p {
     align-self: flex-start;
 }
 
+.third_block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: 2px solid red;
+    align-content: center;
+    height: 1500px;
+}
+
+
 
 
 
