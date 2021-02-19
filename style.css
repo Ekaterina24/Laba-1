@@ -1,0 +1,13 @@
+.first_block {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    height: 200px;
+}
+
+.item1, .item2, .item3, .item4 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 150px;
+}
+
