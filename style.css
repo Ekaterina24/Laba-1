@@ -20,6 +20,21 @@ p {
     flex-basis: 150px;
 }
 
+.second_block {
+    display: flex;
+    flex-flow: column-reverse wrap;
+    align-items: flex-end;
+}
+
+.item2_3 {
+    order: 1;
+}
+
+.item2_4 {
+    align-self: flex-start;
+}
+
+
 
 
 
