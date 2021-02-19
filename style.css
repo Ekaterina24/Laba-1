@@ -1,13 +1,26 @@
 .first_block {
     display: flex;
     justify-content: space-around;
-    flex-direction: row;
-    height: 200px;
+    flex-wrap: wrap;
 }
 
-.item1, .item2, .item3, .item4 {
-    display: flex;
-    flex-wrap: wrap;
+p {
     width: 150px;
 }
+
+.item1, .item2{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 150px;
+}
+
+.item3, .item4 {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 150px;
+}
+
+
+
+
 
